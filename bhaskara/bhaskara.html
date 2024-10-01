@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bhaskara.css">
+    <script src="bhaskara.js" defer></script>
+    <title>Bhaskara</title>
+</head>
+
+<body>
+    <header>
+        <img src="../imagens/login/logo.png" alt="logo" width="150px" onclick="window.location.href = '../home/home.html'">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../soma/soma.html">Soma</a>
+                </li>
+                <li>
+                    <a href="../fibonacci/fibonacci.html">Fibonacci</a>
+                </li>
+                <li>
+                    <a href="../imc/imc.html">IMC</a>
+                </li>
+                <li>
+                    <a href="../bhaskara/bhaskara.html">Bhaskara</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="flex">
+
+        <form>
+            <fieldset>
+                <legend>
+                    <h2>Calculadora de Bhaskara</h2>
+                </legend>
+
+                <label for="a">Coeficiente a:</label>
+                <input type="number" id="a" name="a"><br>
+
+                <label for="b">Coeficiente b:</label>
+                <input type="number" id="b" name="b"><br>
+
+                <label for="c">Coeficiente c:</label>
+                <input type="number" id="c" name="c"><br>
+
+                <button type="button" onclick="baskara()" class="enviar">Calcular</button>
+
+            </fieldset>
+        </form>
+
+        <div id='resultado'>
+            <h3>Resultado</h3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

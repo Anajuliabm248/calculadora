@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="soma.css">
+    <script src="soma.js" defer></script>
+    <title>Soma</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="../imagens/login/logo.png" alt="logo" width="150px"
+            onclick="window.location.href = '../home/home.html'">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../soma/soma.html">Soma</a>
+                </li>
+                <li>
+                    <a href="../fibonacci/fibonacci.html">Fibonacci</a>
+                </li>
+                <li>
+                    <a href="../imc/imc.html">IMC</a>
+                </li>
+                <li>
+                    <a href="../bhaskara/bhaskara.html">Bhaskara</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="flex">
+        <form>
+            <fieldset>
+                <legend>
+                    <h2>Calcular soma</h2>
+                </legend>
+
+                <label for="n1">Número 1</label>
+                <input type="number" id="n1" class="input-padrao" placeholder="Digite o número">
+
+                <label for="n2">Número 2</label>
+                <input type="number" id="n2" class="input-padrao" placeholder="Digite o número">
+
+            </fieldset>
+
+            <button type="button" class="enviar" onclick="soma()">Calcular</button>
+
+        </form>
+
+        <div id="resultado">
+            <h3>Resultado</h3>
+        </div>
+    </div>
+</body>
+
+</html>

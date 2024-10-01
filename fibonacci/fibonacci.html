@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fibonacci.css">
+    <script src="fibonacci.js" defer></script>
+    <title>Fibonacci</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="../imagens/login/logo.png" alt="logo" width="150px"
+            onclick="window.location.href = '../home/home.html'">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../soma/soma.html">Soma</a>
+                </li>
+                <li>
+                    <a href="../fibonacci/fibonacci.html">Fibonacci</a>
+                </li>
+                <li>
+                    <a href="../imc/imc.html">IMC</a>
+                </li>
+                <li>
+                    <a href="../bhaskara/bhaskara.html">Bhaskara</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="flex">
+        <form>
+            <fieldset>
+                <legend>
+                    <h2>Calcular Fibonacci</h2>
+                </legend>
+
+                <label for="valor">Valor</label>
+                <input type="number" id="valor" class="input-padrao" placeholder="Digite o valor desejado">
+
+            </fieldset>
+
+            <button type="button" class="enviar" onclick="fibonacci()">Calcular</button>
+
+        </form>
+
+        <div id="resultado"><h3>Resultado</h3></div>
+    </div>
+
+</body>
+
+</html>

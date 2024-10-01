@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(to right, #00259e, #d400ff);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+header {
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    background: #ffffff;
+}
+
+header img {
+    margin-left: 50px;
+}
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    background: #5e17eb;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li:hover {
+    background: #b700ff;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.enviar {
+    background-color: white;
+    color: #00259e;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: 16px;
+    min-width: 120px;
+    margin-left: 140px;
+}
+
+.enviar:hover {
+    background-color: #ba44ff;
+    color: white;
+    transition: 0.7s;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    text-align: center;
+    font-size: 20px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 30px 40px 20px;
+    border-radius: 35px;
+    min-width: 400px;
+    margin: 50px 0 0 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+input {
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    margin-bottom: 15px;
+    border: 1px rgb(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+}
+
+input::placeholder {
+    color: #00259e;
+}
+
+
+#resultado {
+    width: 350px;
+    height: 50px;
+    background: rgb(255, 255, 255, 0.5);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 180px 0 0 50px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

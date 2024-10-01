@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../home/home.html">
+    <script src="login.js"></script>
+
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <img src="../imagens/login/logo.png" alt="logo" width="150px">
+        <p>Precisa de ajuda?</p>
+    </header>
+
+    <div class="container">
+        <form>
+            <fieldset>
+                <legend>
+                    <p>Login</p>
+                </legend>
+
+                <!-- Campo nome -->
+                 <input id="nome" type="text" class="input-padrao" placeholder="Nome">
+
+                <!-- Campo email -->
+                <input id="email" type="email" class="input-padrao" placeholder="E-mail">
+
+                <!-- Campo senha -->
+                <input type="password" id="senha" name="senha" placeholder="Senha">
+                <span id="toggle-olho" onclick="toggleSenha()">
+                    <img id="icone-olho" src="../imagens/login/olho-fechado.png" alt="Mostrar senha">
+                </span>
+
+                <!-- Botão entrar -->
+                <button type="button" class="enviar" onclick="window.location.href = '../home/home.html'">ENTRE</button>
+
+                <div class="detalhe">
+                    <p>Esqueci minha senha</p>
+                    <p>Fazer login com SMS</p>
+                </div>
+
+                <div class="linha-com-texto">
+                    <span>OU</span>
+                </div>
+
+                <div class="icones">
+                    <div class="facebook">
+                        <img src="../imagens/login/face.png" alt="facebook">
+                        <p>Facebook</p>
+                    </div>
+                    <div class="google">
+                        <img src="../imagens/login/google.png" alt="google">
+                        <p>Google</p>
+                    </div>
+                    <div class="apple">
+                        <img src="../imagens/login/apple.png" alt="apple">
+                        <p>Apple</p>
+                    </div>
+                </div>
+
+                <div class="novo-cadastro">
+                    <p class="novo">Novo na Simple Calc? </p>
+                    <p class="cadastrar">Cadastrar</p>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+       
+    </footer>
+</body>
+
+</html>
